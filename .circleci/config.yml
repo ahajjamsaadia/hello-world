@@ -23,4 +23,4 @@ jobs:
 workflows:
   say-hello-workflow:
     jobs:
-      - sa-hello
+      - say-hello
