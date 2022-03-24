@@ -7,6 +7,6 @@ jobs:
       - checkout
       - run:
           name: command ls
-          command: cl test.c
+          command: gcc test.c -o executable
           #command: |
             #ls
