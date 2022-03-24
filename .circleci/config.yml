@@ -7,7 +7,6 @@ jobs:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
-      - checkout
       - run: 
       command: |
             ls -al
