@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: command ls
+          name: compile File
           command: gcc test.c -o executable
           #command: |
             #ls
