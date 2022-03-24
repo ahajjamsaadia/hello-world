@@ -5,7 +5,5 @@ jobs:
       image: ubuntu-2004:202010-01
     steps:
       - checkout
-      - run:
-          name: compile File
-          command: gcc test.c -o executable 
-          command: ls
+      - run: gcc test.c -o executable  
+      - run: ls
