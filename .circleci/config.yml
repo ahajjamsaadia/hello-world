@@ -9,17 +9,3 @@ jobs:
           name: command ls
           command: |
             ls
-  test:
-       machine:
-      image: ubuntu-2004:202010-01
-    steps:
-      - checkout
-      - run:
-          name: command ls
-          command: |
-            ls
-workflows:
-  build_and_test:
-    jobs:
-      - build
-      - test
