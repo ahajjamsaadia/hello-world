@@ -7,6 +7,7 @@ jobs:
       - checkout
       - run: gcc test.c -o executable  
       - run: time ./executable
- workflows:
-   jobs:
-     - test
+workflows:
+    "Hello Workflow":
+        jobs:
+          - test
