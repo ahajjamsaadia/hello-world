@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run: gcc test.c -o executable  
-      - run: ./executable
+      - run: time ./executable
