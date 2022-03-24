@@ -6,6 +6,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Code Has Arrived
+          name: command ls
           command: |
             ls
