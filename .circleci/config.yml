@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  build:
+   build:
     machine:
       image: ubuntu-2004:202010-01
     steps:
@@ -9,8 +9,8 @@ jobs:
           name: command ls
           command: |
             ls
-   test:
-    machine:
+  test:
+       machine:
       image: ubuntu-2004:202010-01
     steps:
       - checkout
@@ -18,7 +18,7 @@ jobs:
           name: command ls
           command: |
             ls
-   workflows:
+workflows:
   build_and_test:
     jobs:
       - build
